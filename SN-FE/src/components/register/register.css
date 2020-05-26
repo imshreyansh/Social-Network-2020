@@ -1,0 +1,204 @@
+.register{
+    background-color:white;
+    height:100vh;
+}
+
+.upperOne{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+   
+}
+
+.coronaTitle{
+    padding-left: 10px;
+    font-weight:bold;
+    font-size:30px;
+    color:#004d40;
+}
+
+.loginTitle{
+    padding-right: 20px;
+    font-weight:500;
+    font-size:20px;
+    color:#004d40;
+    cursor: pointer;
+}
+
+.upperTwo{
+    display:flex;
+    justify-content:center;
+    position: absolute; /* or absolute */
+    top: 20%;
+    left:30%;
+}
+
+.middleOne{
+    display:flex;
+    width: 800px;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+
+.image{
+    width: 150px;
+    height:180px;
+}
+
+.safe{
+    font-size:20px;
+    color:#004d40;
+
+    font-weight: 500;
+}
+
+.welcome{
+    font-size:40px;
+    color:#004d40;
+    margin-top:10px;
+    margin-left:20%;
+    font-weight: 500;
+}
+
+.welcomeTwo{
+    font-size:20px;
+    color:grey;
+    margin-top:10px;
+    margin-left:20%;
+    font-weight: 300;
+}
+
+.select{
+    width: 100px;
+    padding:5px;
+    border:1px solid #ddd;
+    margin-top:50px;
+}
+
+.name{
+    width: 500px;
+    padding:10px;
+    border:1px solid #ddd;
+    margin-top:50px;
+    margin-left: 20px;
+}
+
+.firstRow{
+    display:flex;
+    flex-direction:row;
+}
+
+.email{
+    width: 300px;
+    padding:10px;
+    border:1px solid #ddd;
+    margin-top:50px;
+    margin-left: 20px;
+}
+
+.password{
+    width: 300px;
+    padding:10px;
+    border:1px solid #ddd;
+    margin-top:50px;
+    margin-left: 20px;
+}
+
+.btn{
+    width:200px;
+    margin-top:50px;
+    padding:10px;
+    background-color:#004d40;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:5px;
+    padding-right:20px;
+    cursor: pointer;
+}
+
+.btnText{
+    font-weight:500;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btnDir{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.upperTwoImage{
+    display:flex;
+    justify-content:center;
+    position: absolute; /* or absolute */
+    top: 20%;
+    left:45%;
+    flex-direction: column;
+}
+
+.imageUpload{
+    width:200px;
+    height:200px;
+    border:5px solid #ddd;
+    border-radius:50%;
+}
+
+.userImage{
+    width:200px;
+    height:200px;
+
+    border-radius:50%;
+}
+
+.uploadTitle{
+    display:flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.uploadTitleSpan{
+    font-size:30px;
+    color:#004d40;
+    font-weight:300;
+}
+
+.uploadButton{
+    width:200px;
+    margin-top:50px;
+    padding:10px;
+    background-color:#004d40;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:5px;
+    padding-right:20px;
+    cursor: pointer;
+}
+
+.uploadButtonSpan{
+    font-weight:500;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.editHead{
+    width:200px;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction:row;
+    position:absolute;
+}
+
+.edit{
+    width:50px;
+    height:50px;
+}
+
+.editHead > input
+{
+    display: none;
+}

@@ -1,0 +1,52 @@
+.userDashboard{
+    background-color:white;
+
+}
+
+.menuBar{
+    padding-bottom: 10px;
+    background-color: #004d40;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.menuItems{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 10px;
+    width:90%;
+ 
+}
+
+.titleMenu{
+    padding-left: 10px;
+    font-weight:bold;
+    font-size:30px;
+    color:white;
+}
+
+.avatarMenu{
+    display: flex;
+    flex-direction:row;
+    width:12%;
+    justify-content:space-between;
+
+}
+
+.avatarMenuMain{
+    display: flex;
+    flex-direction:row;
+    width:10%;
+    justify-content:space-between;
+
+
+}
+
+
+.menuOption{
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    margin-top:10px;
+}
